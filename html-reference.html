@@ -6,8 +6,106 @@
   <body>
     <h1>Reference Page for Common HTML Elements</h1>
     
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Start Tag</th>
+        <th>End Tag</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><a href="#html">HTML</a></td>
+        <td>&lt;html&gt;</td>
+        <td>&lt;/html&gt;</td>
+        <td>This is non-graphical.</td>
+      </tr>
+      <tr>
+        <td><a href="#header">Header</a></td>
+        <td>&lt;head&gt;</td>
+        <td>&lt;/head&gt;</td>
+        <td>This is non-graphical.</td>
+      </tr>
+      <tr>
+        <td><a href="#title">Title</a></td>
+        <td>&lt;title&gt;</td>
+        <td>&lt;/title&gt;</td>
+        <td>The title of this page has been set to HTML Reference Page.</td>
+      </tr>
+      <tr>
+        <td><a href="#body">Body</a></td>
+        <td>&lt;body&gt;</td>
+        <td>&lt;/body&gt;</td>
+        <td>All of this information is contained inside of the body.</td>
+      </tr>
+      <tr>
+        <td><a href="#headings">Headings</a></td>
+        <td>&lt;h1 to 6&gt;</td>
+        <td>&lt;/h1 to 6&gt;</td>
+        <td><h6>This is heading size 6.</h6></td>
+      </tr>
+      <tr>
+        <td><a href="#paragraphs">Paragraphs</a></td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;/p&gt;</td>
+        <td>This is a paragraph.</td>
+      </tr>
+      <tr>
+        <td><a href="#breaks">Breaks</a></td>
+        <td>&lt;br&gt;</td>
+        <td>None.</td>
+        <td>This is a<br>line break.</td>
+      </tr>
+      <tr>
+        <td><a href="#lines">Lines</a></td>
+        <td>&lt;hr&gt;</td>
+        <td>None.</td>
+        <td>The lines in between sections on this page are examples.</td>
+      </tr>
+      <tr>
+        <td><a href="#comments">Comments</a></td>
+        <td>&lt;!--</td>
+        <td>--&gt;</td>
+        <td>This is non-graphical.</td>
+      </tr>
+      <tr>
+        <td><a href="#links">Links</a></td>
+        <td>&lt;a&gt;</td>
+        <td>&lt;/a&gt;</td>
+        <td><a href="https://pengb1823.github.io">This is a link.</a></td>
+      </tr>
+      <tr>
+        <td><a href="#images">Images</a></td>
+        <td>&lt;img&gt;</td>
+        <td>None.</td>
+        <td>This is an image. <img src="http://juliandance.org/wp-content/uploads/2016/01/RedApple.jpg" alt="apple"</td>
+      </tr>
+      <tr>
+        <td><a href="#lists">Lists</a></td>
+        <td>&lt;ol&gt; or &lt;ul&gt;</td>
+        <td>&lt;/ol&gt; or &lt;/ul&gt;</td>
+        <td>
+          <ol>
+            <li>This is an</li>
+            <li>ordered list</li>
+          </ol></td>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#tables">Tables</a></td>
+        <td>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;th&gt;</td>
+        <td>&lt;/th&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</td>
+        <td>This index is a table.</td>
+      </tr>
+      <tr>
+        <td><a href="#blocks">Blocks</a></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>Blocks on their own are non-graphical.</td>
+      </tr>
+    </table>
+    
     <hr>
-    <h2>HTML</h2>
+    <h2 id="html">HTML</h2>
     <h3>Description</h3>
     <p>The &lt;html&gt; tag deliniates an HTML file, and so must be placed at the beginning of every file and at the end of every file.</p>
     <h3>Syntax</h3>
@@ -17,7 +115,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_html.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Header</h2>
+    <h2 id="header">Header</h2>
     <h3>Description</h3>
     <p>The &lt;head&gt; tage follows the &lt;html&gt; tag and defines the header of a page. This is where metadata (non-graphical) is stored, like the title and styles.</p>
     <h3>Syntax</h3>
@@ -27,7 +125,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_header.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Title</h2>
+    <h2 id="title">Title</h2>
     <h3>Description</h3>
     <p>The space in between the &lt;title&gt; and &lt;/title&gt; tags becomes the title of the page, which is displayed at the top.</p>
     <h3>Syntax</h3>
@@ -37,7 +135,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_title.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Body</h2>
+    <h2 id="body">Body</h2>
     <h3>Description</h3>
     <p>The &lt;body&gt; tags define the start and end of the physical content ie. text and images that will be displayed.</p>
     <h3>Syntax</h3>
@@ -47,7 +145,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_body.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Headings</h2>
+    <h2 id="headings">Headings</h2>
     <h3>Description</h3>
     <p>The number in the tag defines the size of the header, while the text in between becomes the header.</p>
     <h3>Syntax</h3>
@@ -57,7 +155,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_hn.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Paragraphs</h2>
+    <h2 id="pargraphs">Paragraphs</h2>
     <h3>Description</h3>
     <p>The text in between the &lt;p&gt; tags becomes a new paragraph.</p>
     <h3>Syntax</h3>
@@ -67,7 +165,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_p.asp">W3 Schools Link</a></h3>
     <hr>
       
-    <h2>Breaks</h2>
+    <h2 id="breaks">Breaks</h2>
     <h3>Description</h3>
     <p>The break starts with &lt;br&gt; with no closing tag. It creates a break in the text.</p>
     <h3>Syntax</h3>
@@ -77,7 +175,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_br.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Lines</h2>
+    <h2 id="lines">Lines</h2>
     <h3>Description</h3>
     <p>&lt;hr&gt; has no closing tag, and signals a change in thematic content.</p>
     <h3>Syntax</h3>
@@ -87,7 +185,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Comments</h2>
+    <h2 id="comments">Comments</h2>
     <h3>Description</h3>
     <p>The content in between &lt;!-- --&gt; doesn't affect the content in the page and is only for the developers.</p>
     <h3>Syntax</h3>
@@ -97,7 +195,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_comment.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Links</h2>
+    <h2 id="links">Links</h2>
     <h3>Description</h3>
     <p>The href tag in the first &lt;a&gt; tag defines the address for the link, and the space in between the two tags defines the name of the link.</p>
     <h3>Syntax</h3>
@@ -107,7 +205,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_a.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Images</h2>
+    <h2 id="images">Images</h2>
     <h3>Description</h3>
     <p>The src tag is the source for the image inside the &lt;img&gt; tag, and the alt tag provides alternative text. There is no closing tag.</p>
     <h3>Syntax</h3>
@@ -117,7 +215,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_img.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Lists</h2>
+    <h2 id="lists">Lists</h2>
     <h3>Description</h3>
     <p>The &lt;ul&gt; defines an unordered list, and the &lt;ol&gt; list defines an ordered list. &lt;li&gt; defines the items being listed.</p>
     <h3>Syntax</h3>
@@ -130,7 +228,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_ol.asp">W3 Schools Link</a></h3>
     <hr>
     
-    <h2>Tables</h2>
+    <h2 id="tables">Tables</h2>
     <h3>Description</h3>
     <p>The &lt;table&gt; tag is the beginning of the table. The &lt;th&gt; tag defines the table headers. The &lt;tr&gt; tag defines rows, and the &lt;td&gt; tag defines individual elements.</p>
     <h3>Syntax</h3>
@@ -140,7 +238,7 @@
     <h3><a href="https://www.w3schools.com/tags/tag_table.asp">W3 Schools Link</a></h3>
     <hr>
    
-    <h2>Blocks</h2>
+    <h2 id="blocks">Blocks</h2>
     <h3>Description</h3>
     <p>The &lt;div&gt; tags seperate the HTML code into sections, allowing for easier application of CSS to certain parts of the page.</p>
     <h3>Syntax</h3>
