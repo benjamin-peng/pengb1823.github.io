@@ -1,1 +1,7 @@
+body {
+  color: #74C365;
+}
 
+h1, h6, p {
+  font-family: "Arial", Arial, Sans-Serif;
+}
