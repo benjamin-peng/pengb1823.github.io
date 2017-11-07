@@ -1,7 +1,7 @@
 body {
-  color: #74C365;
+  background-color: #74C365;
 }
 
-h1, h6, p {
+html {
   font-family: "Arial", Arial, Sans-Serif;
 }
