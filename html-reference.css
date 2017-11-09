@@ -1,8 +1,45 @@
 h2 {
+  height: 50px;
   background-color: #009E60;
   color: white;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
 }
 
 body {
   font-family: "Arial", Arial, Sans-Serif;
+}
+table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  text-align: center;
+  padding: 12px;
+}
+th {
+  background-color: #009E60;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+tr:hover {
+  background-color: #f5f5f5
+}
+.center {
+  text-align: center;
+}
+.courier {
+  font-family: "Courier", Courier, Monospace;
+}
+.grey {
+  background-color: #f2f2f2;
+  padding: 12px;
 }
