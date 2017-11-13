@@ -1,1 +1,25 @@
-
+body {
+  background-color:#e0c29a;
+}
+h1 {
+  text-align:center;
+}
+blockquote {
+  max-width:390px;
+  color: "white";
+  text-align: center; 
+  border-left: 3px solid #897860; 
+  border-right: 3px solid #897860; 
+  padding-left: 5px;
+  padding-right: 5px;
+  margin:0 auto;
+  width:auto;
+  float:center;
+}
+#flag2 {
+  position: relative;
+  top: 5px;
+}
+#trail {
+  clear:center;
+}
