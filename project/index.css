@@ -1,25 +1,91 @@
 body {
   background-color:#e0c29a;
+  font-family: Arial;
 }
 h1 {
-  text-align:center;
+  clear: both;
+  text-align: center;
 }
-blockquote {
-  max-width:390px;
-  color: "white";
+/* centers the iframe */
+iframe {
+  display:block;
+  margin: 0 auto;
+}
+/* table styling */
+#table {    
+    border: 1px solid #ddd;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #4CAF50;
+}
+.right {
+  float: right;
+}
+.center {
+  text-align: center;
+}
+/* fancy quote borders */
+.quote {
+  width: max-content;
   text-align: center; 
   border-left: 3px solid #897860; 
   border-right: 3px solid #897860; 
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin:0 auto;
-  width:auto;
-  float:center;
 }
-#flag2 {
-  position: relative;
-  top: 5px;
+/* padding for text */
+.bodytext {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-#trail {
-  clear:center;
+.scaledown {
+	max-width:66%;
+	height:auto;
+}
+#frenchvsviet {
+  padding-top: 10px;
+}
+#flag1 img {
+  clear: right;
+ 	width: 300px;
+ 	display: block;
+}
+#flag2 img {
+  float: right;
+ 	width: 300px;
+ 	 display: block;
+}
+#flags {
+  float: right;
+}
+#picture2 {
+  clear: both;
 }
